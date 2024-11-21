@@ -9,7 +9,7 @@ import { store } from "./store/index.ts";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <GoogleOAuthProvider clientId={import.meta.env.GOOGLE_ID}>
+    <GoogleOAuthProvider clientId="941780630029-7tps9atufmal0munrvj1m5fh0lv9ruef.apps.googleusercontent.com">
       <Provider store={store}>
         <App />
       </Provider>
